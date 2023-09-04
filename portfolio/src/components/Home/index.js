@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import logoTitle from '../../assets/images/A logo.jpg'
+import logoTitle from '../../assets/images/myLogo.png'
 import './index.scss';
 import '../../App.scss';
+import Homeimg from './homeImg';
 
 const Home = () => {
     return (
@@ -11,11 +12,12 @@ const Home = () => {
                 <img src={logoTitle} alt='developer' />
                 khilesh Wankhede
                 <br />
-                web developer
+                Web Developer
                 </h1>
                 <h2>Frontend Developer / JavaScript / React Developer</h2>
                 <Link to="/contact" className='flat-button'>Contact Me</Link>
             </div>
+            <Homeimg />
         </div>
     )
 }

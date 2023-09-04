@@ -10,7 +10,7 @@
     }
 
     h1{
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 53px;
         margin: 0;
 
@@ -24,8 +24,9 @@
     h2{
         color: #ff474f;
         margin-top: 20px;
-        font-size: 15px;
+        font-size: 17px;
         letter-spacing: 3px;
+        animation: bounceIn 1s 1s;
         animation: fadeIn 1s 1.8s backwards;
     }
 
