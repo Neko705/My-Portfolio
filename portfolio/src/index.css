@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: 300 11px/1.4 'Helvetica Neu', 'sans-serif';
   color: #444;
-  background: #cbe90b;
+  background-image: url('./assets/images/backgroundimg.png');
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
