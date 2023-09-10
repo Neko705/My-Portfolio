@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div className="container contact-page">
             <div className='text-zone'>
-                <h1 style={{color:"#ff474f"}}>Contact:</h1><br/>
+                <h1 style={{color:"#ff474f"}}>Contacts:</h1><br/>
                 <p> Want to contact me, Here are my details and contact info:
                 </p>
                 <p>
