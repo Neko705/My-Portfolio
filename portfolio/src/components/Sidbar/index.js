@@ -1,8 +1,10 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss'
 import logoA from '../../assets/images/myLogo.png'
+import { CiLinkedin } from "react-icons/ci";
+import { VscGithub } from "react-icons/vsc";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faEnvelope, faHome, faUser, faLaptop, faCat } from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => (
     <div className="Navbar">
@@ -26,7 +28,7 @@ const Sidebar = () => (
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/akhilesh-wankhede-1b278b27b/">
-                    <FontAwesomeIcon icon={faLaptop} color="#4d4d4e" />
+                    <CiLinkedin size={24} color='#4d4d4d'/>
                 </a>
             </li>
             <li>
@@ -34,7 +36,7 @@ const Sidebar = () => (
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/Neko705">
-                    <FontAwesomeIcon icon={faCat} color="#4d4d4e" />
+                    <VscGithub size={22} color='#4d4d4d'/>
                 </a>
             </li>
         </ul>
