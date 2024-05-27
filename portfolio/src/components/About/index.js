@@ -1,7 +1,8 @@
 import './index.scss'
 import '../About/index.scss'
 import logoA from '../../assets/images/myLogo.png'
-import resume from '../../assets/images/MyResume.jpg';
+import { Link } from 'react-router-dom';
+//import resume from '../../assets/images/MyResume.jpg';
 
 const About =() => {
     return(
@@ -10,20 +11,20 @@ const About =() => {
                 <h1>
                 <img src={logoA} alt='developer' />bout Me:
                 </h1>
-                <p>I'm vary ambitious Front-end Developer looking for a role in a IT company with
-                    opportunitys to work and learn with the letest technologies on challanging and diverse projects.
+                <p>As a highly ambitious Front-end Developer,
+                    I am actively seeking a position within an IT company that offers opportunities
+                    to engage with cutting-edge technologies and tackle diverse, challenging projects.
                 </p>
-                <p>I'm Passionate about implementing and launching new projects and developing my skills,
-                    make mistakes and learn from them.
+                <p>I am passionate about implementing and launching new projects,
+                   and I am committed to developing my skills by learning from mistakes.
                 </p>
-                <p>If I need to define myself in one sentance, i am a good lerner, i love
-                    reading books and i have a grate intrest in Astrophysics.
+                <p>If I had to describe myself in one sentence, I would say that I am a dedicated learner.
+                   I enjoy immersing myself in books, and I have a strong passion for anime and the Japanese language.
                 </p>
 
                 <h3>More about me:</h3>
-                <a className='flat-button' href={resume} >
-                    View Resume
-                </a>
+
+                <Link to="/contact" className='flat-button'>Contact Me</Link>
 
                 <div class='container'>
                     <div class='loader'></div>

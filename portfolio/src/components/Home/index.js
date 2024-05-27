@@ -15,7 +15,11 @@ const Home = () => {
                 Web Developer
                 </h1>
                 <h2>Frontend Developer / JavaScript / React Developer</h2>
-                <Link to="/contact" className='flat-button'>Contact Me</Link>
+                <a className='flat-button' href="https://neko705.github.io/Resume/" >
+                    View Resume
+                </a>
+
+
             </div>
             <Homeimg />
         </div>
